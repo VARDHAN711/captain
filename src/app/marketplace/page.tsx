@@ -7,8 +7,8 @@ import { FiSearch } from 'react-icons/fi'; // For search icon
 const Marketplace = () => {
   // Dummy data for products
   const initialProducts = [
-    { id: 1, name: 'COD', price: 50, image: '/images/game.png', condition: 'new', category: 'web-3-game' },
-    { id: 2, name: 'Star wars', price: 25, image: '/images/game.png', condition: 'second-hand', category: 'accessory' },
+    { id: 1, name: 'COD', price: 50, image: '/images/COD.png', condition: 'new', category: 'web-3-game' },
+    { id: 2, name: 'Star wars', price: 25, image: '/images/Starwars.png', condition: 'second-hand', category: 'accessory' },
     { id: 3, name: 'Web Game', price: 35, image: '/images/game.png', condition: 'new', category: 'web-3-game' },
     { id: 4, name: 'GTA', price: 150, image: '/images/game.png', condition: 'second-hand', category: 'accessory' },
     { id: 5, name: 'Game Pro', price: 135, image: '/images/game.png', condition: 'new', category: 'web-3-game' },
@@ -18,7 +18,7 @@ const Marketplace = () => {
     { id: 9, name: 'Shooting', price: 35, image: '/images/game.png', condition: 'new', category: 'web-3-game' },
     { id: 10, name: 'PUBG', price: 150, image: '/images/game.png', condition: 'new', category: 'accessory' },
     { id: 11, name: 'Free Fire', price: 135, image: '/images/game.png', condition: 'new', category: 'web-3-game' },
-    { id: 12, name: 'Valorant', price: 100, image: '/images/game.png', condition: 'new', category: 'web-3-game' },
+    { id: 12, name: 'Valorant', price: 100, image: '/images/game.png', condition: 'second-hand', category: 'web-3-game' },
   ];
 
   // State
