@@ -98,6 +98,20 @@ export default function Navbar({ bgColor = '#110219' }: NavbarProps) {
             >
               About Us
             </Link>
+
+            {/* adding Market Place */}
+            <Link
+              href="/marketplace"
+              className={`text-md ${
+                activeLink === 'marketplace'
+                  ? 'text-fuchsia-600'
+                  : 'hover:text-fuchsia-600'
+              }`}
+              onClick={() => handleLinkClick('marketplace')}
+            >
+              Marketplace
+            </Link>
+
             {session && (
               <Link
                 href={`/user/${encodeURI(session.user.name)}`}

@@ -140,3 +140,122 @@ body {
 clip-post{
   clip-path: rect(10px 0px 0px 10px);
 }
+
+
+/* In globals.css */
+
+/* Marketplace page specific styles */
+.marketplace-page {
+  background: linear-gradient(to bottom, #1f2937, #374151); /* Dark gradient background */
+  color: #f9fafb; /* Light text color */
+}
+
+.marketplace-page .text-center {
+  margin-bottom: 2rem;
+}
+
+.marketplace-page .text-center h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #fff;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.marketplace-page .text-center .text-lg {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.marketplace-page .bg-gray-800 {
+  background-color: #2d2d2d !important; /* Dark background for product cards */
+}
+
+.marketplace-page .bg-fuchsia-600 {
+  background-color: #d1a5f5; /* Lighter pink for Buy Now button */
+}
+
+.marketplace-page .bg-orange-600 {
+  background-color: #ff7f50; /* A more vibrant orange for the Resell button */
+}
+
+.marketplace-page .p-4 {
+  padding: 2rem; /* Increase padding for better spacing */
+}
+
+.marketplace-page .text-white {
+  color: #ffffff;
+}
+
+.marketplace-page .bg-blue-600 {
+  background-color: #4d90fe;
+}
+
+.marketplace-page input[type="text"] {
+  padding: 0.75rem;
+  width: 100%;
+  border-radius: 0.375rem;
+  border: 1px solid #ddd;
+  background-color: #333;
+  color: #fff;
+}
+
+.marketplace-page input[type="text"]:focus {
+  outline: none;
+  border-color: #4d90fe;
+}
+
+.marketplace-page .flex {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.marketplace-page .relative {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+}
+
+.marketplace-page .bg-yellow-600 {
+  background-color: #fbbf24; /* Yellow background for second-hand market button */
+}
+
+/* Add transition effects to buttons */
+.marketplace-page button {
+  transition: all 0.3s ease;
+}
+
+.marketplace-page button:hover {
+  opacity: 0.9;
+}
+
+.marketplace-page .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.marketplace-page .w-full {
+  width: 100%;
+}
+
+.marketplace-page .rounded-md {
+  border-radius: 0.375rem;
+}
+
+.marketplace-page .shadow-lg {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.marketplace-page .text-gray-900 {
+  color: #f0f0f0;
+}
+
+.marketplace-page .text-xl {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.marketplace-page .text-lg {
+  font-size: 1rem;
+}
